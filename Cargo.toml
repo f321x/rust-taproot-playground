@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bitcoin = { version = "0.32.0", features = ["rand"] }
+bitcoin = { version = "0.32.0", features = ["rand-std"] }
 
 [profile.release]
 lto = true

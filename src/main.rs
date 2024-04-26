@@ -1,3 +1,7 @@
+use bitcoin_utils::generate_address;
+
+mod bitcoin_utils;
+
 fn main() {
-    println!("Hello, world!");
+    generate_address();
 }
