@@ -6,6 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.83"
+bdk = "0.29.0"
 bitcoin = { version = "0.32.0", features = ["rand-std"] }
 dotenv = "0.15.0"
 
